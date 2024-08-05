@@ -9,7 +9,7 @@ const Vandetails = () => {
   useEffect(() => {
     // https://vanlife-h9ye.onrender.com/
     axios
-      .get(`https://vanlife-h9ye.onrender.com/api/vans/${id}`)
+      .get(`https://vanlife-server-eg7y.onrender.com/${id}`)
       .then((res) => {
         console.log(res.data);
         setDetails(res.data);

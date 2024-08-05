@@ -12,7 +12,7 @@ const Vans = () => {
   // https://vanlife-h9ye.onrender.com
   useEffect(() => {
     axios
-      .get("https://vanlife-h9ye.onrender.com/api/vans")
+      .get("https://vanlife-server-eg7y.onrender.com")
       .then((response) => {
         console.log(response.data);
         setVans(response.data);
